@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work1</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        height: 100%;
+    }
+    .container {
+        height: 498px;
+        width: 322px;
+        border: 1px solid #cdcdcd;
+        margin: 50px auto;
+    }
+    .box-hd {
+        height: 92px;
+        width: 322px;
+        margin: 0 auto;
+    }
+    .author {
+        position: relative;
+        width: 280px;
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 40px;
+        margin-bottom: 4px;
+    }
+    a {
+        font-size: 10px;
+        color: #99bee7;
+        text-decoration: none;
+    }
+    .author-name {
+        display: inline-block;
+    }
+    .author-name a {
+        border: 1px solid #99bee7;
+        padding: 5px, 15px;
+    }
+    .img {
+        margin-left: 22px;
+        margin-top: -45px;
+        border-radius: 30px; 
+    }
+    .name {
+        float: left;
+        font-size: 10px;
+        margin-right: 10px; 
+        color: #616569;
+    }
+    .sl {
+        font-size: 10px; 
+        color: #cdcdcd;
+    }
+    .detail {
+        display: block;
+        line-height: 26px;
+    }
+    .line {
+        height: 1px;
+        width: 280px;
+        margin-left: 22px;
+        margin-right: 22px;
+        background: #cdcdcd;
+    }
+    .box-bd {
+        height: 358px;
+        width: 280px;
+        margin: 0 auto;
+    }
+    .de {
+        display: flex;
+        justify-content: space-between;
+    }
+    .now {
+        position: relative;
+        color: #606165;
+        top: 10px;
+        font-weight:bold;
+    }
+    .time {
+        font-size: 10px; 
+        color: #cdcdcd;
+    }
+    .move {
+        height: 37px;
+        width: 280px;
+        margin-bottom: 26px;
+        color: white;
+        background-color: #3d83f8;
+        border-radius: 8px;
+    }
+    .wenz {
+        height: 50px;
+        width: 280px;
+    }
+    .title {
+        font-size: 15px;
+        color: #616569;
+    }
+    .details {
+        display: block;
+        line-height: 30px;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="http://placehold.it/72x72/123123/ffffff" class="img" />
+    <div class="box-hd">
+        <div class="author">
+            <div class="author-name">
+                <span class="detail name">人人都是产品经理</span>
+                    <a href="#">特邀作者</a>
+            </div>
+            <div class="author-place">
+                <span class="detail sl">百万用户关注的产品经理学习、交流、分享平台</span>
+            </div>
+            <div class="author-sl">
+                <span class="detail sl">共发表215篇</span>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="box-bd">
+        <div class="wenz">
+            <span class="details now">最近文章</span>
+        </div>
+        <div class="wz">
+            <div class="one">
+                <span class="details title">一个运营人，要活的像一家企业</span>
+                <div class="de">
+                    <span class="details time">55分钟前</span>
+                    <span class="details type">
+                        <a href="#">技能GET</a>
+                    </span>
+                </div>
+            </div>
+            <div class="one">
+                <span class="details title">以今日头条为例，详述数据思维驱动产品设计的方法论</span>
+                <div class="de">
+                    <span class="details time">2017-07-22</span>
+                    <span class="details type">
+                        <a href="#">Al is</a>
+                    </span>
+                </div>
+            </div>
+            <div class="one">
+                <span class="details title">1个活动新增150万微信粉丝，我们是如何做到的？</span>
+                <div class="de">
+                    <span class="details time">2017-07-21</span>
+                    <span class="details type">
+                        <a href="#">技能GET</a>
+                    </span>
+                </div>
+            </div>
+            <button class="move">阅读更多文章，狠戳这里</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
